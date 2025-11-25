@@ -1,14 +1,18 @@
 import Navbar from './components/Navbar'
-import './App.css'
 import ItemListContainer from './components/ItemListContainer'
+import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ItemCount from './components/ItemCount'
+
 
 function App() {
 
-
+ console.log ('soy app')
   return (
     <>
      <Navbar/>
-     <ItemListContainer/>
+     <ItemListContainer mensaje = {'AIAKOS'} />
+     <ItemCount/>
     </>
   )
 }
