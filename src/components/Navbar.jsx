@@ -4,10 +4,13 @@ const Navbar = () => {
 
     return(
         <nav className="nav-container">
-           <a href="">Productos</a>
-           <a href="">Servicios</a>
-           <a href="">Contacto</a>
-           <Cartwidget counter={2} />
+            <a class='anchor-nav' href="">
+                <img src="../Aiakos blanco sin fondo.png" alt="logo" className='logo' />
+            </a>
+           <a class='anchor-nav' href="">Productos</a>
+           <a class='anchor-nav' href="">Servicios</a>
+           <a  class='anchor-nav'href="">Contacto</a>
+           <Cartwidget className='anchor-nav' counter={2} />
         </nav>
     )
 }

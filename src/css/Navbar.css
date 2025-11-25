@@ -1,9 +1,16 @@
 .nav-container {
-  background-color: gray;
+  background-color: #000000;
   padding: 3rem;
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
-  text-decoration: none;
    
+}
+.anchor-nav {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.logo {
+  width: 15rem;
 }
